@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cobblemon:black_apricorn"
+    },
+    "B": {
+      "item": "cobblemon:yellow_apricorn"
+    },
+    "C": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "item": "cctweaks:ultra_ball_lid"
+  },
+  "show_notification": true
+}
+
+
+

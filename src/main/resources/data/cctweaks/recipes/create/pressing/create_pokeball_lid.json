@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:pokeball_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:pokeball_lid",
+      "count": 1
+    }
+  ]
+}

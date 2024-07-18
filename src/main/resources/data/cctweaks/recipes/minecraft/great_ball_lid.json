@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cobblemon:blue_apricorn"
+    },
+    "B": {
+      "item": "cobblemon:red_apricorn"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "item": "cctweaks:great_ball_lid"
+  },
+  "show_notification": true
+}

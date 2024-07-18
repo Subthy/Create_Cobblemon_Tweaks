@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cobblemon:white_apricorn"
+    },
+    "B": {
+      "item": "cobblemon:pink_apricorn"
+    },
+    "C": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "item": "cctweaks:love_ball_lid"
+  },
+  "show_notification": true
+}
+

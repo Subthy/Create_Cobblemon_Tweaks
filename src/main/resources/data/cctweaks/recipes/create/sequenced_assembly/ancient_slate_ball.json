@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_nugget"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "cobblemon:ancient_slate_ball"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cctweaks:incomplete_poke_ball"
+        },
+        [
+          {
+            "item": "cctweaks:ancient_slate_ball_lid"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "cctweaks:incomplete_poke_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cctweaks:incomplete_poke_ball"
+        },
+        [
+          {
+            "item": "cctweaks:pokeball_base"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "cctweaks:incomplete_poke_ball"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "cctweaks:incomplete_poke_ball"
+  }
+}
