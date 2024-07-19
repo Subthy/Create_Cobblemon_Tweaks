@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:repeat_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:repeat_ball_lid",
+      "count": 1
+    }
+  ]
+}

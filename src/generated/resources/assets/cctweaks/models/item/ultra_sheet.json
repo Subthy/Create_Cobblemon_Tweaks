@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "cctweaks:item/pokeball_sheet"
+    "layer0": "cctweaks:item/ultra_sheet"
   }
 }

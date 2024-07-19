@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:safari_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:safari_ball_lid",
+      "count": 1
+    }
+  ]
+}

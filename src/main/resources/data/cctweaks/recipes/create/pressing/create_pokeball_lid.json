@@ -2,12 +2,12 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "item": "cctweaks:pokeball_sheet"
+      "item": "cctweaks:poke_ball_sheet"
     }
   ],
   "results": [
     {
-      "item": "cctweaks:pokeball_lid",
+      "item": "cctweaks:poke_ball_lid",
       "count": 1
     }
   ]

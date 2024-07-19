@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:master_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:master_ball_lid",
+      "count": 1
+    }
+  ]
+}

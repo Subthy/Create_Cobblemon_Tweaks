@@ -1,95 +1,95 @@
-[16Jul2024 23:03:52.800] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\krist\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, cctweaks, --all, --output, C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\src\generated\resources, --existing, C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\src\main\resources]
-[16Jul2024 23:03:52.810] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[16Jul2024 23:03:52.934] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[16Jul2024 23:03:52.982] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/krist/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[16Jul2024 23:03:53.282] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[16Jul2024 23:03:53.286] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[16Jul2024 23:03:53.288] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[16Jul2024 23:03:53.291] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
-[16Jul2024 23:03:53.510] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[16Jul2024 23:03:56.133] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by flywheel.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-[16Jul2024 23:03:56.134] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[16Jul2024 23:03:56.140] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.cobblemon-forge.json is lower than the default level supported by the current mixin service (JAVA_16).
-[16Jul2024 23:03:56.143] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\krist\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, cctweaks, --all, --output, C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\src\generated\resources, --existing, C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\src\main\resources]
-[16Jul2024 23:03:56.187] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
-[16Jul2024 23:03:56.188] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
-[16Jul2024 23:03:56.264] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[16Jul2024 23:03:56.264] [main/INFO] [mixin/]: Selecting config flywheel.mixins.json
-[16Jul2024 23:03:56.559] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
-[16Jul2024 23:03:56.559] [main/INFO] [mixin/]: Selecting config flywheel.sodium.mixins.json
-[16Jul2024 23:03:56.570] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
-[16Jul2024 23:03:56.570] [main/INFO] [mixin/]: Selecting config create.mixins.json
-[16Jul2024 23:03:56.572] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
-[16Jul2024 23:03:56.572] [main/INFO] [mixin/]: Selecting config mixins.cobblemon-forge.json
-[16Jul2024 23:03:56.573] [main/INFO] [mixin/]: Remapping refMap cobblemon-forge-refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
-[16Jul2024 23:03:56.573] [main/INFO] [mixin/]: Selecting config mixins.cobblemon-common.json
-[16Jul2024 23:03:56.574] [main/INFO] [mixin/]: Remapping refMap cobblemon-common-refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
-[16Jul2024 23:03:56.575] [main/INFO] [mixin/]: Preparing flywheel.mixins.json (23)
-[16Jul2024 23:03:56.849] [main/INFO] [mixin/]: Preparing flywheel.sodium.mixins.json (1)
-[16Jul2024 23:03:56.850] [main/INFO] [mixin/]: Preparing mixins.cobblemon-forge.json (1)
-[16Jul2024 23:03:56.852] [main/INFO] [mixin/]: Preparing mixins.cobblemon-common.json (40)
-[16Jul2024 23:03:57.012] [main/WARN] [mixin/]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel.adorn.block.variant.BlockVariantSets)
-[16Jul2024 23:03:57.012] [main/WARN] [mixin/]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker
-[16Jul2024 23:03:57.061] [main/INFO] [mixin/]: Preparing create.mixins.json (32)
-[16Jul2024 23:03:57.157] [main/INFO] [mixin/]: Prepared 95 mixins in 0.893 sec (9.4ms avg) (0ms load, 0ms transform, 0ms plugin)
-[16Jul2024 23:03:57.387] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [cctweaks]
-[16Jul2024 23:03:57.489] [main/INFO] [mixin/]: Mixing EntityMixin from create.mixins.json into net.minecraft.world.entity.Entity
-[16Jul2024 23:03:57.497] [main/INFO] [mixin/]: Mixing accessor.AccessorEntity from mixins.cobblemon-common.json into net.minecraft.world.entity.Entity
-[16Jul2024 23:03:57.524] [main/INFO] [mixin/]: Mixing ContraptionDriverInteractMixin from create.mixins.json into net.minecraft.world.entity.Entity
-[16Jul2024 23:03:57.528] [main/INFO] [mixin/]: Mixing accessor.EntityAccessor from create.mixins.json into net.minecraft.world.entity.Entity
-[16Jul2024 23:03:57.539] [main/INFO] [mixin/]: Mixing client.EntityContraptionInteractionMixin from create.mixins.json into net.minecraft.world.entity.Entity
-[16Jul2024 23:03:57.540] [main/INFO] [mixin/]: Renaming synthetic method lambda$create$onSpawnSprintParticle$4(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;Lcom/simibubi/create/content/contraptions/Contraption;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V to mdfbb08b$lambda$create$onSpawnSprintParticle$4$0 in create.mixins.json:client.EntityContraptionInteractionMixin
-[16Jul2024 23:03:57.541] [main/INFO] [mixin/]: Renaming synthetic method lambda$create$onMove$3(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/Entity;Lcom/simibubi/create/content/contraptions/AbstractContraptionEntity;)Z to mdfbb08b$lambda$create$onMove$3$1 in create.mixins.json:client.EntityContraptionInteractionMixin
-[16Jul2024 23:03:57.541] [main/INFO] [mixin/]: Renaming synthetic method lambda$create$contraptionStepSounds$2(Lorg/apache/commons/lang3/mutable/MutableBoolean;Lcom/simibubi/create/content/contraptions/Contraption;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V to mdfbb08b$lambda$create$contraptionStepSounds$2$2 in create.mixins.json:client.EntityContraptionInteractionMixin
-[16Jul2024 23:03:57.541] [main/INFO] [mixin/]: Renaming synthetic method lambda$forCollision$1(Lnet/minecraft/world/phys/Vec3;Lorg/apache/logging/log4j/util/TriConsumer;Lcom/simibubi/create/content/contraptions/AbstractContraptionEntity;)V to mdfbb08b$lambda$forCollision$1$3 in create.mixins.json:client.EntityContraptionInteractionMixin
-[16Jul2024 23:03:57.542] [main/INFO] [mixin/]: Renaming synthetic method lambda$create$getIntersectionContraptionsStream$0(Lcom/simibubi/create/content/contraptions/AbstractContraptionEntity;)Z to mdfbb08b$lambda$create$getIntersectionContraptionsStream$0$4 in create.mixins.json:client.EntityContraptionInteractionMixin
-[16Jul2024 23:03:57.727] [main/INFO] [mixin/]: Mixing LivingEntityMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.LivingEntity
-[16Jul2024 23:03:57.729] [main/INFO] [mixin/]: Mixing CustomItemUseEffectsMixin from create.mixins.json into net.minecraft.world.entity.LivingEntity
-[16Jul2024 23:03:57.742] [main/INFO] [mixin/]: Mixing LavaSwimmingMixin from create.mixins.json into net.minecraft.world.entity.LivingEntity
-[16Jul2024 23:03:57.749] [main/INFO] [mixin/]: Mixing accessor.LivingEntityAccessor from create.mixins.json into net.minecraft.world.entity.LivingEntity
-[16Jul2024 23:03:57.848] [main/INFO] [mixin/]: Mixing PlayerMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.player.Player
-[16Jul2024 23:03:57.849] [main/INFO] [mixin/]: Renaming synthetic method lambda$onEatFood$1(Lnet/minecraft/server/level/ServerPlayer;Lcom/cobblemon/mod/common/api/events/item/LeftoversCreatedEvent;)Lkotlin/Unit; to mdfbb08b$lambda$onEatFood$1$0 in mixins.cobblemon-common.json:PlayerMixin
-[16Jul2024 23:03:57.850] [main/INFO] [mixin/]: Renaming synthetic method lambda$onEatFood$0(Lcom/cobblemon/mod/common/api/events/item/LeftoversCreatedEvent;)Lkotlin/Unit; to mdfbb08b$lambda$onEatFood$0$1 in mixins.cobblemon-common.json:PlayerMixin
-[16Jul2024 23:03:57.957] [main/INFO] [mixin/]: Mixing MinecraftDedicatedServerMixin from mixins.cobblemon-common.json into net.minecraft.server.level.ServerLevel
-[16Jul2024 23:03:57.957] [main/INFO] [mixin/]: Mixing accessor.ServerLevelAccessor from create.mixins.json into net.minecraft.server.level.ServerLevel
-[16Jul2024 23:03:58.041] [main/INFO] [mixin/]: Mixing EntityTypeMixin from flywheel.mixins.json into net.minecraft.world.entity.EntityType
-[16Jul2024 23:03:58.062] [main/INFO] [mixin/]: Mixing BlockEntityTypeMixin from flywheel.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
-[16Jul2024 23:03:58.112] [main/INFO] [mixin/]: Mixing DecoratedPotPatternsMixin from mixins.cobblemon-common.json into net.minecraft.world.level.block.entity.DecoratedPotPatterns
-[16Jul2024 23:03:58.133] [main/INFO] [mixin/]: Mixing invoker.FireBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.FireBlock
-[16Jul2024 23:03:58.256] [main/INFO] [mixin/]: Mixing invoker.BlocksInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.Blocks
-[16Jul2024 23:03:58.257] [main/INFO] [mixin/]: Renaming @Invoker method createLogBlock(Lnet/minecraft/world/level/material/MapColor;Lnet/minecraft/world/level/material/MapColor;)Lnet/minecraft/world/level/block/RotatedPillarBlock; to createLogBlock_$md$fbb08b$0 in mixins.cobblemon-common.json:invoker.BlocksInvoker
-[16Jul2024 23:03:58.263] [main/INFO] [mixin/]: Renaming @Invoker method createLeavesBlock(Lnet/minecraft/world/level/block/SoundType;)Lnet/minecraft/world/level/block/LeavesBlock; to createLeavesBlock_$md$fbb08b$1 in mixins.cobblemon-common.json:invoker.BlocksInvoker
-[16Jul2024 23:03:58.269] [main/INFO] [mixin/]: Renaming @Invoker method createWoodenButtonBlock(Lnet/minecraft/world/level/block/state/properties/BlockSetType;[Lnet/minecraft/world/flag/FeatureFlag;)Lnet/minecraft/world/level/block/ButtonBlock; to createWoodenButtonBlock_$md$fbb08b$2 in mixins.cobblemon-common.json:invoker.BlocksInvoker
-[16Jul2024 23:03:58.276] [main/INFO] [mixin/]: Renaming @Invoker method createFlowerPotBlock(Lnet/minecraft/world/level/block/Block;[Lnet/minecraft/world/flag/FeatureFlag;)Lnet/minecraft/world/level/block/FlowerPotBlock; to createFlowerPotBlock_$md$fbb08b$3 in mixins.cobblemon-common.json:invoker.BlocksInvoker
-[16Jul2024 23:03:58.320] [main/INFO] [mixin/]: Mixing accessor.DispenserBlockAccessor from create.mixins.json into net.minecraft.world.level.block.DispenserBlock
-[16Jul2024 23:03:58.350] [main/INFO] [mixin/]: Mixing invoker.StairsBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.StairBlock
-[16Jul2024 23:03:58.350] [main/INFO] [mixin/]: Renaming @Invoker method cobblemon$create(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/StairBlock; to cobblemon$create_$md$fbb08b$0 in mixins.cobblemon-common.json:invoker.StairsBlockInvoker
-[16Jul2024 23:03:58.370] [main/INFO] [mixin/]: Mixing invoker.DoorBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.DoorBlock
-[16Jul2024 23:03:58.370] [main/INFO] [mixin/]: Renaming @Invoker method cobblemon$create(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lnet/minecraft/world/level/block/state/properties/BlockSetType;)Lnet/minecraft/world/level/block/DoorBlock; to cobblemon$create_$md$fbb08b$0 in mixins.cobblemon-common.json:invoker.DoorBlockInvoker
-[16Jul2024 23:03:58.384] [main/INFO] [mixin/]: Mixing invoker.PressurePlateBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.PressurePlateBlock
-[16Jul2024 23:03:58.385] [main/INFO] [mixin/]: Renaming @Invoker method cobblemon$create(Lnet/minecraft/world/level/block/PressurePlateBlock$Sensitivity;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lnet/minecraft/world/level/block/state/properties/BlockSetType;)Lnet/minecraft/world/level/block/PressurePlateBlock; to cobblemon$create_$md$fbb08b$0 in mixins.cobblemon-common.json:invoker.PressurePlateBlockInvoker
-[16Jul2024 23:03:58.409] [main/INFO] [mixin/]: Mixing invoker.TrapdoorBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.TrapDoorBlock
-[16Jul2024 23:03:58.410] [main/INFO] [mixin/]: Renaming @Invoker method cobblemon$create(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lnet/minecraft/world/level/block/state/properties/BlockSetType;)Lnet/minecraft/world/level/block/TrapDoorBlock; to cobblemon$create_$md$fbb08b$0 in mixins.cobblemon-common.json:invoker.TrapdoorBlockInvoker
-[16Jul2024 23:03:58.500] [main/INFO] [mixin/]: Mixing PointedDripstoneBlockMixin from mixins.cobblemon-common.json into net.minecraft.world.level.block.PointedDripstoneBlock
-[16Jul2024 23:03:58.579] [main/INFO] [mixin/]: Mixing WaterWheelFluidSpreadMixin from create.mixins.json into net.minecraft.world.level.material.FlowingFluid
-[16Jul2024 23:03:58.667] [main/INFO] [mixin/]: Mixing accessor.FallingBlockEntityAccessor from create.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
-[16Jul2024 23:03:58.667] [main/INFO] [mixin/]: Renaming @Invoker method create$callInit(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/entity/item/FallingBlockEntity; to create$callInit_$md$fbb08b$0 in create.mixins.json:accessor.FallingBlockEntityAccessor
-[16Jul2024 23:03:58.677] [main/INFO] [mixin/]: Mixing instancemanage.InstanceRemoveMixin from flywheel.mixins.json into net.minecraft.world.level.block.entity.BlockEntity
-[16Jul2024 23:04:00.203] [main/INFO] [mixin/]: Mixing accessor.BoatEntityAccessor from mixins.cobblemon-common.json into net.minecraft.world.entity.vehicle.Boat
-[16Jul2024 23:04:00.230] [main/INFO] [mixin/]: Mixing entity.TameableEntityMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.TamableAnimal
-[16Jul2024 23:04:00.342] [main/INFO] [mixin/]: Mixing pokeball.ThrownEntityMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.projectile.ThrowableProjectile
-[16Jul2024 23:04:00.455] [main/INFO] [mixin/]: Mixing PiglinEntityMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.monster.piglin.Piglin
-[16Jul2024 23:04:00.601] [main/INFO] [mixin/]: Mixing instancemanage.InstanceAddMixin from flywheel.mixins.json into net.minecraft.world.level.chunk.LevelChunk
-[16Jul2024 23:04:00.708] [main/INFO] [mixin/]: Mixing EntityVillagerMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.npc.Villager
-[16Jul2024 23:04:00.765] [main/INFO] [mixin/]: Mixing accessor.StatusEffectInstanceAccessor from mixins.cobblemon-common.json into net.minecraft.world.effect.MobEffectInstance
-[16Jul2024 23:04:00.844] [main/INFO] [mixin/]: Mixing accessor.AbstractProjectileDispenseBehaviorAccessor from create.mixins.json into net.minecraft.core.dispenser.AbstractProjectileDispenseBehavior
-[16Jul2024 23:04:00.865] [main/INFO] [mixin/]: Mixing ShearsDispenserBehaviorMixin from mixins.cobblemon-common.json into net.minecraft.core.dispenser.ShearsDispenseItemBehavior
-[16Jul2024 23:04:00.865] [main/INFO] [mixin/]: Renaming synthetic method lambda$cobblemon$tryApricornHarvest$0()Lkotlin/Unit; to mdfbb08b$lambda$cobblemon$tryApricornHarvest$0$0 in mixins.cobblemon-common.json:ShearsDispenserBehaviorMixin
-[16Jul2024 23:04:01.162] [main/INFO] [mixin/]: Mixing StructureProcessorListMixin from mixins.cobblemon-common.json into net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorList
-[16Jul2024 23:04:01.171] [main/WARN] [mixin/]: Write access to @Mutable @Final field list:Ljava/util/List; in mixins.cobblemon-common.json:StructureProcessorListMixin::append
-[16Jul2024 23:04:01.171] [main/WARN] [mixin/]: Write access to @Mutable @Final field list:Ljava/util/List; in mixins.cobblemon-common.json:StructureProcessorListMixin::clear
-[16Jul2024 23:04:01.348] [main/INFO] [mixin/]: Mixing StructurePoolAccessor from mixins.cobblemon-common.json into net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool
-[16Jul2024 23:04:01.413] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
+[18Jul2024 19:09:16.756] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\krist\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, cctweaks, --all, --output, C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\src\generated\resources, --existing, C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\src\main\resources]
+[18Jul2024 19:09:16.760] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[18Jul2024 19:09:16.876] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[18Jul2024 19:09:16.918] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/krist/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[18Jul2024 19:09:17.216] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[18Jul2024 19:09:17.218] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[18Jul2024 19:09:17.221] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[18Jul2024 19:09:17.224] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\krist\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
+[18Jul2024 19:09:17.466] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[18Jul2024 19:09:20.105] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by flywheel.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[18Jul2024 19:09:20.106] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Jul2024 19:09:20.109] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.cobblemon-forge.json is lower than the default level supported by the current mixin service (JAVA_16).
+[18Jul2024 19:09:20.112] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\krist\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, cctweaks, --all, --output, C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\src\generated\resources, --existing, C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\src\main\resources]
+[18Jul2024 19:09:20.153] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[18Jul2024 19:09:20.154] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[18Jul2024 19:09:20.202] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[18Jul2024 19:09:20.203] [main/INFO] [mixin/]: Selecting config flywheel.mixins.json
+[18Jul2024 19:09:20.387] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
+[18Jul2024 19:09:20.387] [main/INFO] [mixin/]: Selecting config flywheel.sodium.mixins.json
+[18Jul2024 19:09:20.396] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
+[18Jul2024 19:09:20.396] [main/INFO] [mixin/]: Selecting config create.mixins.json
+[18Jul2024 19:09:20.397] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
+[18Jul2024 19:09:20.397] [main/INFO] [mixin/]: Selecting config mixins.cobblemon-forge.json
+[18Jul2024 19:09:20.397] [main/INFO] [mixin/]: Remapping refMap cobblemon-forge-refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
+[18Jul2024 19:09:20.397] [main/INFO] [mixin/]: Selecting config mixins.cobblemon-common.json
+[18Jul2024 19:09:20.399] [main/INFO] [mixin/]: Remapping refMap cobblemon-common-refmap.json using C:\Users\krist\Downloads\Create_Cobblemon_Tweaks\build\createSrgToMcp\output.srg
+[18Jul2024 19:09:20.399] [main/INFO] [mixin/]: Preparing flywheel.mixins.json (23)
+[18Jul2024 19:09:20.695] [main/INFO] [mixin/]: Preparing flywheel.sodium.mixins.json (1)
+[18Jul2024 19:09:20.696] [main/INFO] [mixin/]: Preparing mixins.cobblemon-forge.json (1)
+[18Jul2024 19:09:20.697] [main/INFO] [mixin/]: Preparing mixins.cobblemon-common.json (40)
+[18Jul2024 19:09:20.855] [main/WARN] [mixin/]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel.adorn.block.variant.BlockVariantSets)
+[18Jul2024 19:09:20.855] [main/WARN] [mixin/]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker
+[18Jul2024 19:09:20.920] [main/INFO] [mixin/]: Preparing create.mixins.json (32)
+[18Jul2024 19:09:21.033] [main/INFO] [mixin/]: Prepared 95 mixins in 0.829 sec (8.7ms avg) (0ms load, 0ms transform, 0ms plugin)
+[18Jul2024 19:09:21.227] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [cctweaks]
+[18Jul2024 19:09:21.338] [main/INFO] [mixin/]: Mixing EntityMixin from create.mixins.json into net.minecraft.world.entity.Entity
+[18Jul2024 19:09:21.359] [main/INFO] [mixin/]: Mixing accessor.AccessorEntity from mixins.cobblemon-common.json into net.minecraft.world.entity.Entity
+[18Jul2024 19:09:21.383] [main/INFO] [mixin/]: Mixing ContraptionDriverInteractMixin from create.mixins.json into net.minecraft.world.entity.Entity
+[18Jul2024 19:09:21.385] [main/INFO] [mixin/]: Mixing accessor.EntityAccessor from create.mixins.json into net.minecraft.world.entity.Entity
+[18Jul2024 19:09:21.400] [main/INFO] [mixin/]: Mixing client.EntityContraptionInteractionMixin from create.mixins.json into net.minecraft.world.entity.Entity
+[18Jul2024 19:09:21.401] [main/INFO] [mixin/]: Renaming synthetic method lambda$create$onSpawnSprintParticle$4(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;Lcom/simibubi/create/content/contraptions/Contraption;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V to md974a24$lambda$create$onSpawnSprintParticle$4$0 in create.mixins.json:client.EntityContraptionInteractionMixin
+[18Jul2024 19:09:21.402] [main/INFO] [mixin/]: Renaming synthetic method lambda$create$onMove$3(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/Entity;Lcom/simibubi/create/content/contraptions/AbstractContraptionEntity;)Z to md974a24$lambda$create$onMove$3$1 in create.mixins.json:client.EntityContraptionInteractionMixin
+[18Jul2024 19:09:21.402] [main/INFO] [mixin/]: Renaming synthetic method lambda$create$contraptionStepSounds$2(Lorg/apache/commons/lang3/mutable/MutableBoolean;Lcom/simibubi/create/content/contraptions/Contraption;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V to md974a24$lambda$create$contraptionStepSounds$2$2 in create.mixins.json:client.EntityContraptionInteractionMixin
+[18Jul2024 19:09:21.402] [main/INFO] [mixin/]: Renaming synthetic method lambda$forCollision$1(Lnet/minecraft/world/phys/Vec3;Lorg/apache/logging/log4j/util/TriConsumer;Lcom/simibubi/create/content/contraptions/AbstractContraptionEntity;)V to md974a24$lambda$forCollision$1$3 in create.mixins.json:client.EntityContraptionInteractionMixin
+[18Jul2024 19:09:21.403] [main/INFO] [mixin/]: Renaming synthetic method lambda$create$getIntersectionContraptionsStream$0(Lcom/simibubi/create/content/contraptions/AbstractContraptionEntity;)Z to md974a24$lambda$create$getIntersectionContraptionsStream$0$4 in create.mixins.json:client.EntityContraptionInteractionMixin
+[18Jul2024 19:09:21.648] [main/INFO] [mixin/]: Mixing LivingEntityMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.LivingEntity
+[18Jul2024 19:09:21.651] [main/INFO] [mixin/]: Mixing CustomItemUseEffectsMixin from create.mixins.json into net.minecraft.world.entity.LivingEntity
+[18Jul2024 19:09:21.672] [main/INFO] [mixin/]: Mixing LavaSwimmingMixin from create.mixins.json into net.minecraft.world.entity.LivingEntity
+[18Jul2024 19:09:21.683] [main/INFO] [mixin/]: Mixing accessor.LivingEntityAccessor from create.mixins.json into net.minecraft.world.entity.LivingEntity
+[18Jul2024 19:09:21.812] [main/INFO] [mixin/]: Mixing PlayerMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.player.Player
+[18Jul2024 19:09:21.814] [main/INFO] [mixin/]: Renaming synthetic method lambda$onEatFood$1(Lnet/minecraft/server/level/ServerPlayer;Lcom/cobblemon/mod/common/api/events/item/LeftoversCreatedEvent;)Lkotlin/Unit; to md974a24$lambda$onEatFood$1$0 in mixins.cobblemon-common.json:PlayerMixin
+[18Jul2024 19:09:21.814] [main/INFO] [mixin/]: Renaming synthetic method lambda$onEatFood$0(Lcom/cobblemon/mod/common/api/events/item/LeftoversCreatedEvent;)Lkotlin/Unit; to md974a24$lambda$onEatFood$0$1 in mixins.cobblemon-common.json:PlayerMixin
+[18Jul2024 19:09:21.970] [main/INFO] [mixin/]: Mixing MinecraftDedicatedServerMixin from mixins.cobblemon-common.json into net.minecraft.server.level.ServerLevel
+[18Jul2024 19:09:21.971] [main/INFO] [mixin/]: Mixing accessor.ServerLevelAccessor from create.mixins.json into net.minecraft.server.level.ServerLevel
+[18Jul2024 19:09:22.063] [main/INFO] [mixin/]: Mixing EntityTypeMixin from flywheel.mixins.json into net.minecraft.world.entity.EntityType
+[18Jul2024 19:09:22.080] [main/INFO] [mixin/]: Mixing BlockEntityTypeMixin from flywheel.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[18Jul2024 19:09:22.125] [main/INFO] [mixin/]: Mixing DecoratedPotPatternsMixin from mixins.cobblemon-common.json into net.minecraft.world.level.block.entity.DecoratedPotPatterns
+[18Jul2024 19:09:22.145] [main/INFO] [mixin/]: Mixing invoker.FireBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.FireBlock
+[18Jul2024 19:09:22.258] [main/INFO] [mixin/]: Mixing invoker.BlocksInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.Blocks
+[18Jul2024 19:09:22.259] [main/INFO] [mixin/]: Renaming @Invoker method createLogBlock(Lnet/minecraft/world/level/material/MapColor;Lnet/minecraft/world/level/material/MapColor;)Lnet/minecraft/world/level/block/RotatedPillarBlock; to createLogBlock_$md$974a24$0 in mixins.cobblemon-common.json:invoker.BlocksInvoker
+[18Jul2024 19:09:22.265] [main/INFO] [mixin/]: Renaming @Invoker method createLeavesBlock(Lnet/minecraft/world/level/block/SoundType;)Lnet/minecraft/world/level/block/LeavesBlock; to createLeavesBlock_$md$974a24$1 in mixins.cobblemon-common.json:invoker.BlocksInvoker
+[18Jul2024 19:09:22.269] [main/INFO] [mixin/]: Renaming @Invoker method createWoodenButtonBlock(Lnet/minecraft/world/level/block/state/properties/BlockSetType;[Lnet/minecraft/world/flag/FeatureFlag;)Lnet/minecraft/world/level/block/ButtonBlock; to createWoodenButtonBlock_$md$974a24$2 in mixins.cobblemon-common.json:invoker.BlocksInvoker
+[18Jul2024 19:09:22.274] [main/INFO] [mixin/]: Renaming @Invoker method createFlowerPotBlock(Lnet/minecraft/world/level/block/Block;[Lnet/minecraft/world/flag/FeatureFlag;)Lnet/minecraft/world/level/block/FlowerPotBlock; to createFlowerPotBlock_$md$974a24$3 in mixins.cobblemon-common.json:invoker.BlocksInvoker
+[18Jul2024 19:09:22.319] [main/INFO] [mixin/]: Mixing accessor.DispenserBlockAccessor from create.mixins.json into net.minecraft.world.level.block.DispenserBlock
+[18Jul2024 19:09:22.345] [main/INFO] [mixin/]: Mixing invoker.StairsBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.StairBlock
+[18Jul2024 19:09:22.345] [main/INFO] [mixin/]: Renaming @Invoker method cobblemon$create(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/StairBlock; to cobblemon$create_$md$974a24$0 in mixins.cobblemon-common.json:invoker.StairsBlockInvoker
+[18Jul2024 19:09:22.364] [main/INFO] [mixin/]: Mixing invoker.DoorBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.DoorBlock
+[18Jul2024 19:09:22.365] [main/INFO] [mixin/]: Renaming @Invoker method cobblemon$create(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lnet/minecraft/world/level/block/state/properties/BlockSetType;)Lnet/minecraft/world/level/block/DoorBlock; to cobblemon$create_$md$974a24$0 in mixins.cobblemon-common.json:invoker.DoorBlockInvoker
+[18Jul2024 19:09:22.377] [main/INFO] [mixin/]: Mixing invoker.PressurePlateBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.PressurePlateBlock
+[18Jul2024 19:09:22.378] [main/INFO] [mixin/]: Renaming @Invoker method cobblemon$create(Lnet/minecraft/world/level/block/PressurePlateBlock$Sensitivity;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lnet/minecraft/world/level/block/state/properties/BlockSetType;)Lnet/minecraft/world/level/block/PressurePlateBlock; to cobblemon$create_$md$974a24$0 in mixins.cobblemon-common.json:invoker.PressurePlateBlockInvoker
+[18Jul2024 19:09:22.399] [main/INFO] [mixin/]: Mixing invoker.TrapdoorBlockInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.block.TrapDoorBlock
+[18Jul2024 19:09:22.399] [main/INFO] [mixin/]: Renaming @Invoker method cobblemon$create(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lnet/minecraft/world/level/block/state/properties/BlockSetType;)Lnet/minecraft/world/level/block/TrapDoorBlock; to cobblemon$create_$md$974a24$0 in mixins.cobblemon-common.json:invoker.TrapdoorBlockInvoker
+[18Jul2024 19:09:22.494] [main/INFO] [mixin/]: Mixing PointedDripstoneBlockMixin from mixins.cobblemon-common.json into net.minecraft.world.level.block.PointedDripstoneBlock
+[18Jul2024 19:09:22.551] [main/INFO] [mixin/]: Mixing WaterWheelFluidSpreadMixin from create.mixins.json into net.minecraft.world.level.material.FlowingFluid
+[18Jul2024 19:09:22.644] [main/INFO] [mixin/]: Mixing accessor.FallingBlockEntityAccessor from create.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
+[18Jul2024 19:09:22.644] [main/INFO] [mixin/]: Renaming @Invoker method create$callInit(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/entity/item/FallingBlockEntity; to create$callInit_$md$974a24$0 in create.mixins.json:accessor.FallingBlockEntityAccessor
+[18Jul2024 19:09:22.652] [main/INFO] [mixin/]: Mixing instancemanage.InstanceRemoveMixin from flywheel.mixins.json into net.minecraft.world.level.block.entity.BlockEntity
+[18Jul2024 19:09:24.213] [main/INFO] [mixin/]: Mixing accessor.BoatEntityAccessor from mixins.cobblemon-common.json into net.minecraft.world.entity.vehicle.Boat
+[18Jul2024 19:09:24.241] [main/INFO] [mixin/]: Mixing entity.TameableEntityMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.TamableAnimal
+[18Jul2024 19:09:24.377] [main/INFO] [mixin/]: Mixing pokeball.ThrownEntityMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.projectile.ThrowableProjectile
+[18Jul2024 19:09:24.508] [main/INFO] [mixin/]: Mixing PiglinEntityMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.monster.piglin.Piglin
+[18Jul2024 19:09:24.671] [main/INFO] [mixin/]: Mixing instancemanage.InstanceAddMixin from flywheel.mixins.json into net.minecraft.world.level.chunk.LevelChunk
+[18Jul2024 19:09:24.767] [main/INFO] [mixin/]: Mixing EntityVillagerMixin from mixins.cobblemon-common.json into net.minecraft.world.entity.npc.Villager
+[18Jul2024 19:09:24.819] [main/INFO] [mixin/]: Mixing accessor.StatusEffectInstanceAccessor from mixins.cobblemon-common.json into net.minecraft.world.effect.MobEffectInstance
+[18Jul2024 19:09:24.888] [main/INFO] [mixin/]: Mixing accessor.AbstractProjectileDispenseBehaviorAccessor from create.mixins.json into net.minecraft.core.dispenser.AbstractProjectileDispenseBehavior
+[18Jul2024 19:09:24.914] [main/INFO] [mixin/]: Mixing ShearsDispenserBehaviorMixin from mixins.cobblemon-common.json into net.minecraft.core.dispenser.ShearsDispenseItemBehavior
+[18Jul2024 19:09:24.914] [main/INFO] [mixin/]: Renaming synthetic method lambda$cobblemon$tryApricornHarvest$0()Lkotlin/Unit; to md974a24$lambda$cobblemon$tryApricornHarvest$0$0 in mixins.cobblemon-common.json:ShearsDispenserBehaviorMixin
+[18Jul2024 19:09:25.198] [main/INFO] [mixin/]: Mixing StructureProcessorListMixin from mixins.cobblemon-common.json into net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorList
+[18Jul2024 19:09:25.202] [main/WARN] [mixin/]: Write access to @Mutable @Final field list:Ljava/util/List; in mixins.cobblemon-common.json:StructureProcessorListMixin::append
+[18Jul2024 19:09:25.202] [main/WARN] [mixin/]: Write access to @Mutable @Final field list:Ljava/util/List; in mixins.cobblemon-common.json:StructureProcessorListMixin::clear
+[18Jul2024 19:09:25.367] [main/INFO] [mixin/]: Mixing StructurePoolAccessor from mixins.cobblemon-common.json into net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool
+[18Jul2024 19:09:25.432] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
 java.lang.IllegalStateException: Field climateSettings is not private and an instance field
 	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:270) ~[coremods-5.1.6.jar:?]
 	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$23$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
@@ -137,61 +137,61 @@ java.lang.IllegalStateException: Field climateSettings is not private and an ins
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[16Jul2024 23:04:01.717] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
-[16Jul2024 23:04:01.718] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
-[16Jul2024 23:04:01.735] [modloading-worker-0/INFO] [mixin/]: Mixing ClientLevelMixin from flywheel.mixins.json into net.minecraft.client.multiplayer.ClientLevel
-[16Jul2024 23:04:01.756] [modloading-worker-0/INFO] [mixin/]: Mixing PausedPartialTickAccessor from flywheel.mixins.json into net.minecraft.client.Minecraft
-[16Jul2024 23:04:01.762] [modloading-worker-0/INFO] [mixin/]: Mixing client.WindowResizeMixin from create.mixins.json into net.minecraft.client.Minecraft
-[16Jul2024 23:04:01.817] [modloading-worker-0/INFO] [mixin/]: Mixing client.HeavyBootsOnPlayerMixin from create.mixins.json into net.minecraft.client.player.LocalPlayer
-[16Jul2024 23:04:01.864] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[16Jul2024 23:04:01.882] [modloading-worker-0/INFO] [mixin/]: Mixing ModelLoaderMixin from mixins.cobblemon-common.json into net.minecraft.client.resources.model.ModelBakery
-[16Jul2024 23:04:01.883] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$init$0(Lcom/cobblemon/mod/common/BakingOverride;)V to mdfbb08b$lambda$init$0$0 in mixins.cobblemon-common.json:ModelLoaderMixin
-[16Jul2024 23:04:01.948] [modloading-worker-0/INFO] [mixin/]: Mixing CameraMixin from flywheel.mixins.json into net.minecraft.client.Camera
-[16Jul2024 23:04:01.948] [modloading-worker-0/INFO] [mixin/]: Mixing client.CameraMixin from create.mixins.json into net.minecraft.client.Camera
-[16Jul2024 23:04:01.983] [modloading-worker-0/INFO] [mixin/]: Mixing fix.FixNormalScalingMixin from flywheel.mixins.json into com.mojang.blaze3d.vertex.PoseStack
-[16Jul2024 23:04:01.985] [modloading-worker-0/INFO] [mixin/]: Mixing matrix.PoseStackMixin from flywheel.mixins.json into com.mojang.blaze3d.vertex.PoseStack
-[16Jul2024 23:04:02.032] [modloading-worker-0/INFO] [mixin/]: Mixing FrustumMixin from flywheel.mixins.json into net.minecraft.client.renderer.culling.Frustum
-[16Jul2024 23:04:02.047] [modloading-worker-0/INFO] [mixin/]: Mixing RenderTypeMixin from flywheel.mixins.json into net.minecraft.client.renderer.RenderType
-[16Jul2024 23:04:02.074] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererAccessor from flywheel.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[16Jul2024 23:04:02.080] [modloading-worker-0/INFO] [mixin/]: Mixing fix.FixFabulousDepthMixin from flywheel.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[16Jul2024 23:04:02.080] [modloading-worker-0/INFO] [mixin/]: Mixing instancemanage.InstanceUpdateMixin from flywheel.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[16Jul2024 23:04:02.081] [modloading-worker-0/INFO] [mixin/]: Mixing client.LevelRendererMixin from create.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[16Jul2024 23:04:02.082] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$create$onDestroyBlockProgress$0(J)Ljava/util/SortedSet; to mdfbb08b$lambda$create$onDestroyBlockProgress$0$0 in create.mixins.json:client.LevelRendererMixin
-[16Jul2024 23:04:02.089] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererMixin from flywheel.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[16Jul2024 23:04:02.097] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[16Jul2024 23:04:02.232] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererMixin from mixins.cobblemon-common.json into net.minecraft.client.renderer.GameRenderer
-[16Jul2024 23:04:02.235] [modloading-worker-0/INFO] [mixin/]: Mixing accessor.GameRendererAccessor from create.mixins.json into net.minecraft.client.renderer.GameRenderer
-[16Jul2024 23:04:02.240] [modloading-worker-0/INFO] [mixin/]: Mixing client.GameRendererMixin from create.mixins.json into net.minecraft.client.renderer.GameRenderer
-[16Jul2024 23:04:02.280] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[16Jul2024 23:04:02.284] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Launching Cobblemon 1.5.2 
-[16Jul2024 23:04:02.285] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting ForgePermissionApiPermissionValidator, player permissions will be checked using MinecraftForge' PermissionAPI, non player command sources will use Minecraft' permission level system, see https://docs.minecraftforge.net/en/latest/ and https://minecraft.fandom.com/wiki/Permission_level
-[16Jul2024 23:04:02.303] [modloading-worker-0/INFO] [mixin/]: Mixing pokeball.ItemRendererMixin from mixins.cobblemon-common.json into net.minecraft.client.renderer.entity.ItemRenderer
-[16Jul2024 23:04:02.567] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting the Best Spawner...
-[16Jul2024 23:04:02.572] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning condition types.
-[16Jul2024 23:04:02.582] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning context types.
-[16Jul2024 23:04:02.587] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 spawn detail types.
-[16Jul2024 23:04:02.827] [modloading-worker-0/INFO] [mixin/]: Mixing invoker.BooleanRuleInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.GameRules$BooleanValue
-[16Jul2024 23:04:02.843] [modloading-worker-0/INFO] [mixin/]: Mixing BuiltinModelItemRendererMixin from mixins.cobblemon-common.json into net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer
-[16Jul2024 23:04:02.907] [modloading-worker-0/INFO] [mixin/]: Mixing ParticleManagerMixin from mixins.cobblemon-common.json into net.minecraft.client.particle.ParticleEngine
-[16Jul2024 23:04:02.908] [modloading-worker-0/INFO] [mixin/]: Mixing accessor.ParticleEngineAccessor from create.mixins.json into net.minecraft.client.particle.ParticleEngine
-[16Jul2024 23:04:02.912] [modloading-worker-0/WARN] [mixin/]: Write access to @Mutable @Final field RENDER_ORDER:Ljava/util/List; in mixins.cobblemon-common.json:ParticleManagerMixin::handler$zcd000$lodestone$addTypes
-[16Jul2024 23:04:03.637] [modloading-worker-0/INFO] [mixin/]: Mixing accessor.KeyBindingAccessor from mixins.cobblemon-common.json into net.minecraft.client.KeyMapping
-[16Jul2024 23:04:03.749] [modloading-worker-0/INFO] [mixin/]: Mixing ExplosionMixin from mixins.cobblemon-common.json into net.minecraft.world.level.Explosion
-[16Jul2024 23:04:04.835] [main/INFO] [mixin/]: Mixing accessor.AgeableListModelAccessor from create.mixins.json into net.minecraft.client.model.AgeableListModel
-[16Jul2024 23:04:05.115] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/krist/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[16Jul2024 23:04:05.117] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/krist/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[16Jul2024 23:04:05.120] [Worker-Main-1/INFO] [mixin/]: Mixing MapItemSavedDataMixin from create.mixins.json into net.minecraft.world.level.saveddata.maps.MapItemSavedData
-[16Jul2024 23:04:05.492] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
-[16Jul2024 23:04:05.519] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 26 ms
-[16Jul2024 23:04:05.519] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[16Jul2024 23:04:05.519] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 0 ms
-[16Jul2024 23:04:05.519] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[16Jul2024 23:04:05.525] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 5 ms
-[16Jul2024 23:04:05.525] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
-[16Jul2024 23:04:05.525] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 0 ms
-[16Jul2024 23:04:05.526] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: cctweaks
-[16Jul2024 23:04:05.555] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: cctweaks finished after 30 ms
-[16Jul2024 23:04:05.555] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: cctweaks
-[16Jul2024 23:04:05.555] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: cctweaks finished after 0 ms
-[16Jul2024 23:04:05.555] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 63 ms
-[16Jul2024 23:04:05.566] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 51, old count: 50, new count: 52, removed stale: 0, written: 1
+[18Jul2024 19:09:25.692] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
+[18Jul2024 19:09:25.692] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
+[18Jul2024 19:09:25.712] [modloading-worker-0/INFO] [mixin/]: Mixing ClientLevelMixin from flywheel.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[18Jul2024 19:09:25.729] [modloading-worker-0/INFO] [mixin/]: Mixing PausedPartialTickAccessor from flywheel.mixins.json into net.minecraft.client.Minecraft
+[18Jul2024 19:09:25.734] [modloading-worker-0/INFO] [mixin/]: Mixing client.WindowResizeMixin from create.mixins.json into net.minecraft.client.Minecraft
+[18Jul2024 19:09:25.774] [modloading-worker-0/INFO] [mixin/]: Mixing client.HeavyBootsOnPlayerMixin from create.mixins.json into net.minecraft.client.player.LocalPlayer
+[18Jul2024 19:09:25.834] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[18Jul2024 19:09:25.848] [modloading-worker-0/INFO] [mixin/]: Mixing ModelLoaderMixin from mixins.cobblemon-common.json into net.minecraft.client.resources.model.ModelBakery
+[18Jul2024 19:09:25.849] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$init$0(Lcom/cobblemon/mod/common/BakingOverride;)V to md974a24$lambda$init$0$0 in mixins.cobblemon-common.json:ModelLoaderMixin
+[18Jul2024 19:09:25.907] [modloading-worker-0/INFO] [mixin/]: Mixing CameraMixin from flywheel.mixins.json into net.minecraft.client.Camera
+[18Jul2024 19:09:25.907] [modloading-worker-0/INFO] [mixin/]: Mixing client.CameraMixin from create.mixins.json into net.minecraft.client.Camera
+[18Jul2024 19:09:25.929] [modloading-worker-0/INFO] [mixin/]: Mixing fix.FixNormalScalingMixin from flywheel.mixins.json into com.mojang.blaze3d.vertex.PoseStack
+[18Jul2024 19:09:25.931] [modloading-worker-0/INFO] [mixin/]: Mixing matrix.PoseStackMixin from flywheel.mixins.json into com.mojang.blaze3d.vertex.PoseStack
+[18Jul2024 19:09:25.968] [modloading-worker-0/INFO] [mixin/]: Mixing FrustumMixin from flywheel.mixins.json into net.minecraft.client.renderer.culling.Frustum
+[18Jul2024 19:09:25.981] [modloading-worker-0/INFO] [mixin/]: Mixing RenderTypeMixin from flywheel.mixins.json into net.minecraft.client.renderer.RenderType
+[18Jul2024 19:09:25.998] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererAccessor from flywheel.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[18Jul2024 19:09:26.002] [modloading-worker-0/INFO] [mixin/]: Mixing fix.FixFabulousDepthMixin from flywheel.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[18Jul2024 19:09:26.003] [modloading-worker-0/INFO] [mixin/]: Mixing instancemanage.InstanceUpdateMixin from flywheel.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[18Jul2024 19:09:26.003] [modloading-worker-0/INFO] [mixin/]: Mixing client.LevelRendererMixin from create.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[18Jul2024 19:09:26.003] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$create$onDestroyBlockProgress$0(J)Ljava/util/SortedSet; to md974a24$lambda$create$onDestroyBlockProgress$0$0 in create.mixins.json:client.LevelRendererMixin
+[18Jul2024 19:09:26.006] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[18Jul2024 19:09:26.008] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererMixin from flywheel.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[18Jul2024 19:09:26.109] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererMixin from mixins.cobblemon-common.json into net.minecraft.client.renderer.GameRenderer
+[18Jul2024 19:09:26.111] [modloading-worker-0/INFO] [mixin/]: Mixing accessor.GameRendererAccessor from create.mixins.json into net.minecraft.client.renderer.GameRenderer
+[18Jul2024 19:09:26.115] [modloading-worker-0/INFO] [mixin/]: Mixing client.GameRendererMixin from create.mixins.json into net.minecraft.client.renderer.GameRenderer
+[18Jul2024 19:09:26.141] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[18Jul2024 19:09:26.158] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Launching Cobblemon 1.5.2 
+[18Jul2024 19:09:26.160] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting ForgePermissionApiPermissionValidator, player permissions will be checked using MinecraftForge' PermissionAPI, non player command sources will use Minecraft' permission level system, see https://docs.minecraftforge.net/en/latest/ and https://minecraft.fandom.com/wiki/Permission_level
+[18Jul2024 19:09:26.194] [modloading-worker-0/INFO] [mixin/]: Mixing pokeball.ItemRendererMixin from mixins.cobblemon-common.json into net.minecraft.client.renderer.entity.ItemRenderer
+[18Jul2024 19:09:26.382] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting the Best Spawner...
+[18Jul2024 19:09:26.387] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning condition types.
+[18Jul2024 19:09:26.394] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning context types.
+[18Jul2024 19:09:26.397] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 spawn detail types.
+[18Jul2024 19:09:26.607] [modloading-worker-0/INFO] [mixin/]: Mixing invoker.BooleanRuleInvoker from mixins.cobblemon-common.json into net.minecraft.world.level.GameRules$BooleanValue
+[18Jul2024 19:09:26.615] [modloading-worker-0/INFO] [mixin/]: Mixing BuiltinModelItemRendererMixin from mixins.cobblemon-common.json into net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer
+[18Jul2024 19:09:26.668] [modloading-worker-0/INFO] [mixin/]: Mixing ParticleManagerMixin from mixins.cobblemon-common.json into net.minecraft.client.particle.ParticleEngine
+[18Jul2024 19:09:26.668] [modloading-worker-0/INFO] [mixin/]: Mixing accessor.ParticleEngineAccessor from create.mixins.json into net.minecraft.client.particle.ParticleEngine
+[18Jul2024 19:09:26.674] [modloading-worker-0/WARN] [mixin/]: Write access to @Mutable @Final field RENDER_ORDER:Ljava/util/List; in mixins.cobblemon-common.json:ParticleManagerMixin::handler$zcd000$lodestone$addTypes
+[18Jul2024 19:09:27.212] [modloading-worker-0/INFO] [mixin/]: Mixing accessor.KeyBindingAccessor from mixins.cobblemon-common.json into net.minecraft.client.KeyMapping
+[18Jul2024 19:09:27.297] [modloading-worker-0/INFO] [mixin/]: Mixing ExplosionMixin from mixins.cobblemon-common.json into net.minecraft.world.level.Explosion
+[18Jul2024 19:09:28.702] [main/INFO] [mixin/]: Mixing accessor.AgeableListModelAccessor from create.mixins.json into net.minecraft.client.model.AgeableListModel
+[18Jul2024 19:09:28.982] [Worker-Main-1/INFO] [mixin/]: Mixing MapItemSavedDataMixin from create.mixins.json into net.minecraft.world.level.saveddata.maps.MapItemSavedData
+[18Jul2024 19:09:29.034] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/krist/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[18Jul2024 19:09:29.035] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/krist/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[18Jul2024 19:09:29.310] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[18Jul2024 19:09:29.383] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 73 ms
+[18Jul2024 19:09:29.384] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[18Jul2024 19:09:29.384] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 0 ms
+[18Jul2024 19:09:29.384] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[18Jul2024 19:09:29.393] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 8 ms
+[18Jul2024 19:09:29.393] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
+[18Jul2024 19:09:29.393] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 0 ms
+[18Jul2024 19:09:29.393] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: cctweaks
+[18Jul2024 19:09:29.471] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: cctweaks finished after 77 ms
+[18Jul2024 19:09:29.471] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: cctweaks
+[18Jul2024 19:09:29.472] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: cctweaks finished after 0 ms
+[18Jul2024 19:09:29.472] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 162 ms
+[18Jul2024 19:09:29.488] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 99, old count: 51, new count: 99, removed stale: 1, written: 48

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:ultra_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:ultra_ball_lid",
+      "count": 1
+    }
+  ]
+}

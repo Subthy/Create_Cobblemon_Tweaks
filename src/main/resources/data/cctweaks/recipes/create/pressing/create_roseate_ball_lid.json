@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:roseate_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:roseate_ball_lid",
+      "count": 1
+    }
+  ]
+}

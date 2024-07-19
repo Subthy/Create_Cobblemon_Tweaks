@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:azure_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:azure_ball_lid",
+      "count": 1
+    }
+  ]
+}

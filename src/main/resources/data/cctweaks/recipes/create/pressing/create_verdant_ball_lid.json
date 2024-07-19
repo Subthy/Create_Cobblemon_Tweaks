@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:verdant_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:verdant_ball_lid",
+      "count": 1
+    }
+  ]
+}

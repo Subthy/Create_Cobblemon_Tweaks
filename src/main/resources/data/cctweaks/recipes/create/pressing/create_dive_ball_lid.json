@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:dive_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:dive_ball_lid",
+      "count": 1
+    }
+  ]
+}

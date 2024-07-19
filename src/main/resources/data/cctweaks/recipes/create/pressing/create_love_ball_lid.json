@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:love_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:love_ball_lid",
+      "count": 1
+    }
+  ]
+}

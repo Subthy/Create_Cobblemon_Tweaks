@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:ancient_wing_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:ancient_wing_ball_lid",
+      "count": 1
+    }
+  ]
+}

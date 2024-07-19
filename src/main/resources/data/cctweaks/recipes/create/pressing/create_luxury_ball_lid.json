@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:luxury_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:luxury_ball_lid",
+      "count": 1
+    }
+  ]
+}

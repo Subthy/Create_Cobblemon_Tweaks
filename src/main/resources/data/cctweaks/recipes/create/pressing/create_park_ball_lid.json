@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:park_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:park_ball_lid",
+      "count": 1
+    }
+  ]
+}

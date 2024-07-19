@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:dream_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:dream_ball_lid",
+      "count": 1
+    }
+  ]
+}

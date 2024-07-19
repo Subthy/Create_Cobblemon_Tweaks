@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:dusk_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:dusk_ball_lid",
+      "count": 1
+    }
+  ]
+}

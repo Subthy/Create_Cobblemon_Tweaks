@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:beast_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:beast_ball_lid",
+      "count": 1
+    }
+  ]
+}

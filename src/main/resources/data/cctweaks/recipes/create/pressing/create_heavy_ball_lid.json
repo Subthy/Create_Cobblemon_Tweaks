@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:heavy_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:heavy_ball_lid",
+      "count": 1
+    }
+  ]
+}

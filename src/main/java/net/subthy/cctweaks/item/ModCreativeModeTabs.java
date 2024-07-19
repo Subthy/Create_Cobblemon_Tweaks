@@ -18,6 +18,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Poke_Ball_Lid.get()))
                     .title(Component.translatable("creativetab.pokeball_tab"))
                     .displayItems((displayParameters, output) -> {
+                        // Lids
                         output.accept(ModItems.Pokeball_base.get());
                         output.accept(ModItems.Ancient_Azure_Ball_Lid.get());
                         output.accept(ModItems.Ancient_Citrine_Ball_Lid.get());
@@ -67,11 +68,59 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.Timer_Ball_Lid.get());
                         output.accept(ModItems.Ultra_Ball_Lid.get());
                         output.accept(ModItems.Verdant_Ball_Lid.get());
-
-                        output.accept(ModItems.Pokeball_Sheet.get());
-
+                        // Random
                         output.accept(ModItems.Incomplete_Poke_Ball.get());
+                        // Sheets
+                        output.accept(ModItems.Ancient_Azure_Sheet.get());
+                        output.accept(ModItems.Ancient_Citrine_Sheet.get());
+                        output.accept(ModItems.Ancient_Feather_Sheet.get());
+                        output.accept(ModItems.Ancient_Gigaton_Sheet.get());
+                        output.accept(ModItems.Ancient_Great_Sheet.get());
+                        output.accept(ModItems.Ancient_Heavy_Sheet.get());
+                        output.accept(ModItems.Ancient_Ivory_Sheet.get());
+                        output.accept(ModItems.Ancient_Jet_Sheet.get());
+                        output.accept(ModItems.Ancient_Leaden_Sheet.get());
+                        output.accept(ModItems.Ancient_Origin_Sheet.get());
+                        output.accept(ModItems.Ancient_Poke_Sheet.get());
+                        output.accept(ModItems.Ancient_Roseate_Sheet.get());
+                        output.accept(ModItems.Ancient_Slate_Sheet.get());
+                        output.accept(ModItems.Ancient_Ultra_Sheet.get());
+                        output.accept(ModItems.Ancient_Verdant_Sheet.get());
+                        output.accept(ModItems.Ancient_Wing_Sheet.get());
+                        output.accept(ModItems.Azure_Sheet.get());
+                        output.accept(ModItems.Beast_Sheet.get());
+                        output.accept(ModItems.Citrine_Sheet.get());
+                        output.accept(ModItems.Cherish_Sheet.get());
+                        output.accept(ModItems.Dive_Sheet.get());
+                        output.accept(ModItems.Dream_Sheet.get());
+                        output.accept(ModItems.Dusk_Sheet.get());
+                        output.accept(ModItems.Fast_Sheet.get());
+                        output.accept(ModItems.Friend_Sheet.get());
+                        output.accept(ModItems.Great_Sheet.get());
+                        output.accept(ModItems.Heal_Sheet.get());
+                        output.accept(ModItems.Heavy_Sheet.get());
+                        output.accept(ModItems.Level_Sheet.get());
+                        output.accept(ModItems.Love_Sheet.get());
+                        output.accept(ModItems.Lure_Sheet.get());
+                        output.accept(ModItems.Luxury_Sheet.get());
+                        output.accept(ModItems.Master_Sheet.get());
+                        output.accept(ModItems.Moon_Sheet.get());
+                        output.accept(ModItems.Nest_Sheet.get());
+                        output.accept(ModItems.Net_Sheet.get());
+                        output.accept(ModItems.Park_Sheet.get());
+                        output.accept(ModItems.Pokeball_Sheet.get());
+                        output.accept(ModItems.Premier_Sheet.get());
+                        output.accept(ModItems.Quick_Sheet.get());
+                        output.accept(ModItems.Repeat_Sheet.get());
+                        output.accept(ModItems.Roseate_Sheet.get());
+                        output.accept(ModItems.Safari_Sheet.get());
+                        output.accept(ModItems.Slate_Sheet.get());
+                        output.accept(ModItems.Sport_Sheet.get());
+                        output.accept(ModItems.Timer_Sheet.get());
+                        output.accept(ModItems.Ultra_Sheet.get());
+                        output.accept(ModItems.Verdant_Sheet.get());
                     }).build());
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

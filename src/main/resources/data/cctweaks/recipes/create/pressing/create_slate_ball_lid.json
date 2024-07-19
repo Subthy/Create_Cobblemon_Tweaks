@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:slate_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:slate_ball_lid",
+      "count": 1
+    }
+  ]
+}

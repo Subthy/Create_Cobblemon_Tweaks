@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:ancient_leaden_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:ancient_leaden_ball_lid",
+      "count": 1
+    }
+  ]
+}

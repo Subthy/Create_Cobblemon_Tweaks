@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:net_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:net_ball_lid",
+      "count": 1
+    }
+  ]
+}

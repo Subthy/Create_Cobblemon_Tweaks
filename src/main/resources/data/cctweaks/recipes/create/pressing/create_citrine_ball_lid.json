@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:citrine_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:citrine_ball_lid",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:ancient_jet_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:ancient_jet_ball_lid",
+      "count": 1
+    }
+  ]
+}

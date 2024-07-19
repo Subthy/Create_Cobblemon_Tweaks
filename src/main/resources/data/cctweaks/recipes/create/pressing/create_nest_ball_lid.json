@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:nest_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:nest_ball_lid",
+      "count": 1
+    }
+  ]
+}

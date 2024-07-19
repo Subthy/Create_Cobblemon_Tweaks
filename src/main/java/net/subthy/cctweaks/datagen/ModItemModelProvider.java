@@ -67,9 +67,57 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.Ultra_Ball_Lid);
         simpleItem(ModItems.Verdant_Ball_Lid);
         simpleItem(ModItems.Cherish_Ball_Lid);
-        simpleItem(ModItems.Pokeball_Sheet);
 
         simpleItem(ModItems.Incomplete_Poke_Ball);
+        // Sheets
+        simpleItem(ModItems.Ancient_Azure_Sheet);
+        simpleItem(ModItems.Ancient_Citrine_Sheet);
+        simpleItem(ModItems.Ancient_Feather_Sheet);
+        simpleItem(ModItems.Ancient_Gigaton_Sheet);
+        simpleItem(ModItems.Ancient_Great_Sheet);
+        simpleItem(ModItems.Ancient_Heavy_Sheet);
+        simpleItem(ModItems.Ancient_Ivory_Sheet);
+        simpleItem(ModItems.Ancient_Jet_Sheet);
+        simpleItem(ModItems.Ancient_Leaden_Sheet);
+        simpleItem(ModItems.Ancient_Origin_Sheet);
+        simpleItem(ModItems.Ancient_Poke_Sheet);
+        simpleItem(ModItems.Ancient_Roseate_Sheet);
+        simpleItem(ModItems.Ancient_Slate_Sheet);
+        simpleItem(ModItems.Ancient_Ultra_Sheet);
+        simpleItem(ModItems.Ancient_Verdant_Sheet);
+        simpleItem(ModItems.Ancient_Wing_Sheet);
+        simpleItem(ModItems.Azure_Sheet);
+        simpleItem(ModItems.Beast_Sheet);
+        simpleItem(ModItems.Citrine_Sheet);
+        simpleItem(ModItems.Dive_Sheet);
+        simpleItem(ModItems.Dream_Sheet);
+        simpleItem(ModItems.Dusk_Sheet);
+        simpleItem(ModItems.Fast_Sheet);
+        simpleItem(ModItems.Friend_Sheet);
+        simpleItem(ModItems.Great_Sheet);
+        simpleItem(ModItems.Heal_Sheet);
+        simpleItem(ModItems.Heavy_Sheet);
+        simpleItem(ModItems.Level_Sheet);
+        simpleItem(ModItems.Love_Sheet);
+        simpleItem(ModItems.Lure_Sheet);
+        simpleItem(ModItems.Luxury_Sheet);
+        simpleItem(ModItems.Master_Sheet);
+        simpleItem(ModItems.Moon_Sheet);
+        simpleItem(ModItems.Nest_Sheet);
+        simpleItem(ModItems.Net_Sheet);
+        simpleItem(ModItems.Park_Sheet);
+        simpleItem(ModItems.Premier_Sheet);
+        simpleItem(ModItems.Pokeball_Sheet);
+        simpleItem(ModItems.Quick_Sheet);
+        simpleItem(ModItems.Repeat_Sheet);
+        simpleItem(ModItems.Roseate_Sheet);
+        simpleItem(ModItems.Safari_Sheet);
+        simpleItem(ModItems.Slate_Sheet);
+        simpleItem(ModItems.Sport_Sheet);
+        simpleItem(ModItems.Timer_Sheet);
+        simpleItem(ModItems.Ultra_Sheet);
+        simpleItem(ModItems.Verdant_Sheet);
+        simpleItem(ModItems.Cherish_Sheet);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

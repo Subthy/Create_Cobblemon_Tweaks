@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:moon_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:moon_ball_lid",
+      "count": 1
+    }
+  ]
+}

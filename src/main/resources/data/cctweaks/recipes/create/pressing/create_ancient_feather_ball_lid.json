@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:ancient_feather_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "cctweaks:ancient_feather_ball_lid",
+      "count": 1
+    }
+  ]
+}
