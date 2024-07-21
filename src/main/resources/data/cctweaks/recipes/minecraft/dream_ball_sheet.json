@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cobblemon:red_apricorn"
+    },
+    "B": {
+      "item": "cobblemon:pink_apricorn"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "cobblemon:blue_apricorn"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "item": "cctweaks:dream_ball_lid"
+  },
+  "show_notification": true
+}

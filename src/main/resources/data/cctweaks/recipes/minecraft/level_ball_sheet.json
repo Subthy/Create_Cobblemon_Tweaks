@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cobblemon:black_apricorn"
+    },
+    "B": {
+      "item": "cobblemon:yellow_apricorn"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "cobblemon:pink_apricorn"
+    },
+    "E": {
+      "item": "cobblemon:red_apricorn"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "result": {
+    "count": 1,
+    "item": "cctweaks:level_ball_lid"
+  },
+  "show_notification": true
+}
