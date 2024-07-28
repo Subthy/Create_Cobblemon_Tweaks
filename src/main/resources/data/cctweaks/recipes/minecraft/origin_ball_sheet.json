@@ -6,7 +6,7 @@
       "item": "cobblemon:red_apricorn"
     },
     "B": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:gold_ingot"
     }
   },
   "pattern": [
@@ -16,10 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "item": "cctweaks:poke_ball_sheet"
+    "item": "cctweaks:ancient_origin_sheet"
   },
   "show_notification": true
 }
-
-
-
