@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_nugget"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:roseate_ball"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cctweaks:incomplete_poke_ball"
+        },
+        [
+          {
+            "item": "cctweaks:roseate_ball_lid"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "cctweaks:incomplete_poke_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cctweaks:incomplete_poke_ball"
+        },
+        [
+          {
+            "item": "cctweaks:pokeball_base"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "cctweaks:incomplete_poke_ball"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cctweaks:incomplete_poke_ball"
+  }
+}

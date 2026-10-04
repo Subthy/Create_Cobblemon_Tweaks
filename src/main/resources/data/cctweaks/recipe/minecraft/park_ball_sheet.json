@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cobblemon:red_apricorn"
+    },
+    "B": {
+      "item": "cobblemon:green_apricorn"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cctweaks:park_sheet"
+  },
+  "show_notification": true
+}

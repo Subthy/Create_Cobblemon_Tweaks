@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cctweaks:lure_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "cctweaks:lure_ball_lid",
+      "count": 1
+    }
+  ]
+}

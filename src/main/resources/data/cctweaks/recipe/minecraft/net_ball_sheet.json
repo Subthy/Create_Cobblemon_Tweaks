@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cobblemon:black_apricorn"
+    },
+    "B": {
+      "item": "cobblemon:blue_apricorn"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "cobblemon:white_apricorn"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cctweaks:net_sheet"
+  },
+  "show_notification": true
+}
